@@ -25,3 +25,14 @@ foreach($barang_terpilih as $index){
     $total[] = $harga_barang[$index] * $qty;
 }
 
+// tampilkan struk
+foreach($beli as $key => $index){
+    echo "Nama Barang : ".$nama_barang[$index]."<br>";
+    echo "Harga Barang : ".$harga_barang[$index]."<br>";
+    echo "Jumlah Beli : ".$jumlah[$key]."<br>";
+    echo "Total Harga : ".$total[$key]."<br><br>";
+    
+    $grandtotal += $total[$key];
+}
+
+
