@@ -35,4 +35,7 @@ foreach($beli as $key => $index){
     $grandtotal += $total[$key];
 }
 
-
+// Tambahkan garis pemisah
+echo "<hr>";
+echo "Total Belanja : $grandtotal<br>";
+?>
